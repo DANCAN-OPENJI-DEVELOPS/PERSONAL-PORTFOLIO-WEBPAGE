@@ -22,11 +22,33 @@ body {
 }
 
 nav {
-  text-align: right;
+  /*text-align: right; */
   background-color: var(--my-red);
   padding: 2rem;
   position: fixed;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav div:first-of-type {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+nav div > span:first-of-type {
+  color: antiquewhite;
+  background-color: black;
+  padding: 2px;
+  font-weight: bold;
+}
+
+nav div > span:last-of-type {
+  color: black;
+  background-color: antiquewhite;
+  padding: 2px;
+  font-weight: bold;
 }
 
 nav a {
