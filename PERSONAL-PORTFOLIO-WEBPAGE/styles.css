@@ -47,7 +47,7 @@ nav a {
   text-align: center;
   margin-top: 10%;
   font-size: 3rem;
-  margin-top: 4.5rem;
+  margin-top: 4rem;
 }
 
 #welcome-section p {
@@ -58,7 +58,7 @@ nav a {
 }
 
 #welcome-section img {
-  margin: 2rem auto 0.5rem auto;
+  margin: 1rem auto 0.5rem auto;
   border-radius: 9px;
   display: flex;
   align-items: center;
