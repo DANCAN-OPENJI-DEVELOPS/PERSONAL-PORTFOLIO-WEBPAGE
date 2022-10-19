@@ -87,6 +87,11 @@ nav a {
   justify-content: center;
 }
 
+#welcome-section img:hover {
+  transform: scale(1.1);
+  cursor: not-allowed;
+}
+
 #projects {
   width: 100%;
   background-color: var(--my-blue);
