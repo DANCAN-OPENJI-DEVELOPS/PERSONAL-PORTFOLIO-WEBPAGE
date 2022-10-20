@@ -75,7 +75,7 @@ nav a:hover {
 #welcome-section {
   background-color: var(--my-gray);
   padding: 4rem;
-  height: 100vh;
+  height: max-content;
   vertical-align: middle;
 }
 
@@ -111,6 +111,54 @@ nav a:hover {
 #welcome-section img:hover {
   transform: scale(1.1);
   cursor: not-allowed;
+}
+
+#skills {
+  height: 550px;
+  /* display: flex;
+  flex-direction: row;*/
+  border-bottom: 4px solid var(--my-gray);
+  background-color: rgb(red, green, blue, 0.5);
+  background-color: var(--my-blue);
+}
+
+#skills .skills-h2 {
+  margin: 0px auto 130px auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#skills .skills-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin: auto;
+}
+
+#blog {
+  height: 600px;
+  background-color: rgb(red, green, blue, 0.3);
+  background-color: var(--my-white);
+  padding: 0 4rem;
+}
+
+#blog h2 {
+  margin: 0px auto 35px auto;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#blog p {
+  margin-bottom: 4px;
+}
+
+#blog ul {
+  margin: 10px 0 10px 60vw;
+}
+
+#blog ul > li {
+  margin: 10px auto;
 }
 
 #projects {
