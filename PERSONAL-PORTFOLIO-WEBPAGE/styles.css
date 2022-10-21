@@ -63,7 +63,7 @@ nav div > span:last-of-type:hover {
 }
 nav a {
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 2vw;
   color: var(--my-white);
   /*color: var(--my-red);*/
 }
@@ -114,7 +114,7 @@ nav a:hover {
 }
 
 #skills {
-  height: 550px;
+  height: max-content;
   /* display: flex;
   flex-direction: row;*/
   border-bottom: 4px solid var(--my-gray);
@@ -123,7 +123,7 @@ nav a:hover {
 }
 
 #skills .skills-h2 {
-  margin: 0px auto 130px auto;
+  margin: 0px auto 15vw auto;
   text-align: center;
   padding-top: 40px;
 }
@@ -134,10 +134,12 @@ nav a:hover {
   justify-content: center;
   gap: 100px;
   margin: auto;
+  flex-wrap: wrap;
+  padding-bottom: 15vw;
 }
 
 #blog {
-  height: 600px;
+  height: max-content;
   background-color: rgb(red, green, blue, 0.3);
   background-color: var(--my-white);
   padding: 0 4rem;
@@ -154,11 +156,15 @@ nav a:hover {
 }
 
 #blog ul {
-  margin: 10px 0 10px 60vw;
+  margin: 10px 0 10px 25vw;
 }
 
 #blog ul > li {
   margin: 10px auto;
+}
+
+#blog p:last-of-type {
+  padding-bottom: 8vw;
 }
 
 #projects {
@@ -291,6 +297,15 @@ nav a:hover {
   #welcome-section p {
     font-size: 1.5rem;
   }
+  #skills .skills-h2 {
+    margin-bottom: 10vw;
+  }
+  #skills .skills-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+  }
   #projects h2 {
     padding-top: 2.5rem;
     font-size: 2rem;
@@ -340,6 +355,7 @@ nav a:hover {
   }
   #welcome-section h1 {
     font-size: 1.8rem;
+    padding-top: 5vw;
   }
   #welcome-section p {
     font-size: 1.3rem;
